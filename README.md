@@ -10,7 +10,7 @@ Installation
 
 Install pizza_order_js it by first cloning the repository in the terminal.
 ```
-$ git clone
+$ git clone https://github.com/codybousc/deep_dishin_js.git
 ```
 Open pizza_order_js by going into the folder and clicking pizza.html or in the terminal type:
 ```
