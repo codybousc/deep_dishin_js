@@ -3,7 +3,7 @@ pizza_order_js
 
 by Cody Bouscaren
 
-pizza_order_js' it is a web app written in Javascript that lets the user order a pizza specifying the size and toppings that they'd prefer.
+pizza_order_js it is a web app written in Javascript that lets the user order a pizza specifying the size and toppings that they'd prefer.
 
 Installation
 ============
