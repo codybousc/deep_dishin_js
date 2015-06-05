@@ -3,11 +3,17 @@ describe("PizzaPie", function() {
     var testPizza = new PizzaPie(10);
     expect(testPizza.basePrice).to.equal(10);
   });
-  
-  it("returns the price of Large pizza", function(){
-    var testPizza = new PizzaPie(10);
-    expect(testPizza.Small()).to.equal(15);
-    debugger;
+
+  it("returns the size of a Large pizza", function(){
+    var testPizza = new PizzaPie("Large");
+    expect(testPizza.pizza).to.equal("Large");
+
+  });
+
+  it("returns the size of a Small pizza", function(){
+    var testPizza = new PizzaPie("Small");
+    expect(testPizza.pizza).to.equal("Small");
+
   });
 
 

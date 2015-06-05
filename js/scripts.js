@@ -18,7 +18,7 @@ $(document).ready(function(){
     var inputtedPizza_size = $("#pizza_size").val();
     var inputtedToppings = $("#toppings").val();
 
-    var newPizza = new PizzaPie(inputtedPizza_size, inputtedToppings);
+    var newPizza = new PizzaPie(inputtedPizza_size);
 
     if (inputtedPizza_size === "Large") {
        newPizza.Large();
