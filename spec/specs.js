@@ -1,6 +1,7 @@
-describe("palindrome", function() {
-  it("will return true if word is a palindrome", function(){
-    expect(palindrome("boob")).to.equal(true);
+describe("PizzaPie", function() {
+  it("returns the base price of a pizza", function(){
+    var testPizza = new PizzaPie(10);
+    expect(testPizza.basePrice).to.equal(10);
   });
 
 
